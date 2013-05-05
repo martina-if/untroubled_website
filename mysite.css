@@ -1,0 +1,90 @@
+* { margin: 0; padding: 0;}
+
+body {
+	background: #008AB8;
+	/*
+	background: #888;
+	*/
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: block;
+	font: 300 100.01% "Helvetica Neue",Helvetica,"Arial Unicode MS",Arial,sans-serif;
+}
+
+#container {
+	width: 700px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#header {
+	height: 100px;
+	width: 700px;
+	margin: 0;
+	padding: .5em 32px 0;
+	display: block;
+	text-align: center;
+}
+
+/* Content */
+#content {
+	background: #eee;
+	color: #345;
+	width: 700px;
+	position: relative;
+	margin: 0;
+	text-align: left;
+	padding: .5em 32px 0;
+	display: block;
+	border: 1px solid #eee;
+	border-radius: 10;
+	/*
+	background: #555;
+	box-shadow: 0 0 .5em #999;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-bottom: .5em;
+	 */
+}
+
+#top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 700px;
+	height: 20px;
+}
+
+#page {
+	/*margin-bottom: .5em;
+	overflow: hidden;
+	word-wrap: break-word;*/
+	float: left; 
+	display: block;
+	width: 62%;
+	margin: 0;
+	text-align: left;
+}
+
+#menu {
+	float: right;
+	display: block;
+	width: 38%;
+	margin: 0;
+	text-align: left;
+}
+
+#footer {
+	margin: 0 -2em;
+	clear: both;
+	position: relative;
+	display: block;
+	text-align: center
+	/*
+	padding: 0;
+	line-height: 30px;
+	height: 30px;
+	margin-top: 3em;
+	*/
+}
