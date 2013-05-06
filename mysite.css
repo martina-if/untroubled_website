@@ -1,7 +1,8 @@
 * { margin: 0; padding: 0;}
 
 body {
-	background: #008AB8;
+	background: #edeae1;
+	color: #6e6b5f;
 	/*
 	background: #888;
 	*/
@@ -29,7 +30,7 @@ body {
 
 /* Content */
 #content {
-	background: #eee;
+	background: #fff;
 	color: #345;
 	width: 700px;
 	position: relative;
