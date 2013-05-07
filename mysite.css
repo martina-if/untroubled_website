@@ -49,6 +49,18 @@ body {
 	 */
 }
 
+h2 {
+	/*
+	font-size: 1.4em;
+	margin: 1em 0 0 0;
+	*/
+	font-size: 1em;
+	line-height: 1.85;
+	padding-left: 44px;
+	position: relative;
+	font-weight: 300;
+}
+
 #top {
 	position: absolute;
 	top: 0;
@@ -58,20 +70,23 @@ body {
 }
 
 #page {
-	/*margin-bottom: .5em;
-	overflow: hidden;
-	word-wrap: break-word;*/
 	float: left; 
 	display: block;
 	width: 62%;
 	margin: 0;
 	text-align: left;
+	/*
+	margin-bottom: .5em;
+	overflow: hidden;
+	word-wrap: break-word;
+	padding-right: 20px;
+	 */
 }
 
 #menu {
 	float: right;
 	display: block;
-	width: 38%;
+	width: 33%;
 	margin: 0;
 	text-align: left;
 }
@@ -93,17 +108,40 @@ body {
 	border-bottom: 1px solid #d6d1bf; 
 	/*background: url(menu-editorial.png) no-repeat top left; 
 	list-style: none;
+	padding-left: 2px;
 	*/
-	padding-left: 7px;
 }
+
+#menu h2 span {
+	height: 32px;
+	left: 5px;
+	line-height: 0;
+	margin: -16px 0 0 0;
+	position: absolute;
+	top: 50%;
+	width: 32px;
+}
+/*
+
+#menu li  {
+	padding: 0 0 0 1em;
+}
+	*/
 
 
 #footer {
+	font-size: 0.8em;
+	margin: 1px;
+	clear: both;
+	text-align: center;
+	padding: 0;
+	/*
 	margin: 0 -2em;
 	clear: both;
 	position: relative;
 	display: block;
-	text-align: center
+	font-size: 1em;
+	*/
 	/*
 	padding: 0;
 	line-height: 30px;
